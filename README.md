@@ -23,15 +23,15 @@ docker-compose up --build
 
     url :http://localhost:8000/signup
     body-json :
-        {
-  "username": "amol",
-  "password": "amol@123"
-}
+    {
+        "username": "amol",
+        "password": "amol@123"
+    }
 
 ### Login POST
     url : http://localhost:8000/login
     body-json :
-       {
+    {
         "username": "amol",
         "password": "amol@123"
     }
@@ -47,10 +47,10 @@ docker-compose up --build
 ### Delete User DELETE
     url : http://localhost:8000/user/{id}
     body-json :
-        {
-  "username": "amol",
-  "password": "Amol@123"
-}
+    {
+        "username": "amol",
+        "password": "Amol@123"
+    }
 
 
 
